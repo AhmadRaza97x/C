@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+    // REVRESE ARRAY
+    // WITHOUT EXTRA ARRAY
+    // WE USE SWAPPING
+
+void reverse(int a[])
+{
+    int i=0;
+    int j=4;
+
+    while (i<=j)
+    {
+        int temp =a[i];
+        a[i]=a[j];
+        a[j]=temp; 
+        i++;
+        j--;
+    }
+
+    return;   
+}
+
+int main(int argc, char const *argv[])
+{
+    int a[5] = {1,2,3,4,5};
+    reverse(a);
+
+    for (int i = 0; i < 4; i++)
+    {
+        printf("%d ",a[i]);
+    }
+    
+    return 0;
+}
