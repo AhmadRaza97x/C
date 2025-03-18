@@ -31,9 +31,6 @@ int main()
     Mewtwo.tier='G';
 
     printf("%d",Charizard.attack);
-
-
-
     
     return 0;
 }
