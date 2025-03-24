@@ -4,6 +4,8 @@
 
 int main()
 {
+// STRUCTURE
+
     struct Pokemon  // USER DEFINE DATA TYPE
     {
        int hp;
@@ -11,6 +13,8 @@ int main()
        int attack;
        char tier;
     };
+
+// INITIALISING
 
     struct Pokemon Pikachu;
     Pikachu.hp=50;

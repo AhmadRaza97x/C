@@ -5,12 +5,16 @@
 
 int main()
 {
+// CREATE STRUCTURE
+
     struct book  
     {
        char name[50];
        float price;
       int no_of_page;
     }a,b,c;
+
+// DECLARATION AND INITIALISATION
 
     a.price=411.5;
     a.no_of_page=100;
@@ -24,7 +28,7 @@ int main()
     c.no_of_page=250;
     strcpy(c.name,"RAZA");
 
-
+// PRINTING
 
     printf("%d\n",a.no_of_page);
     printf("%f\n",a.price);
@@ -41,8 +45,6 @@ int main()
     printf("%d\n",c.no_of_page);
     printf("%f\n",c.price);
     printf("%s\n",c.name);
-
-
    
     return 0;
 }
