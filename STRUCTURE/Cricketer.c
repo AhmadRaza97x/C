@@ -3,7 +3,7 @@
 
     // CRICKETER DATA LIST
 
-int main(int argc, char const *argv[])
+int main()
 {
     typedef struct Cricketer
     {
