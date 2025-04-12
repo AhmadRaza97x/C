@@ -22,6 +22,5 @@ int main()
     BOOK b;
     BOOK c;
     
-    
     return 0;
 }
