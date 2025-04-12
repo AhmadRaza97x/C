@@ -2,6 +2,8 @@
 #include<string.h>
 #include<stdbool.h>
 
+    // DATE COMPARE
+
 int main()
 {
     typedef struct Date
@@ -11,7 +13,7 @@ int main()
         int year;
     }Date;
 
-    Date a,b;
+    Date a,b,c;
 
 // a -> 5/12/1999
 // b -> 19/1/2023 
@@ -31,6 +33,8 @@ int main()
 
     if (flag == true) printf("EQUAL");
     else printf("UNEQUAL");
+
+    c = a;  // FEATURE 1
     
     return 0;
 }
