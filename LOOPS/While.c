@@ -1,15 +1,12 @@
 #include<stdio.h>
 
     // WHILE LOOP
-        
+    
 int main()
 {
     int i=1;
-    while (i<=100)
-    {
-        printf("%d ",i);
-        i++;
-    }
-    
+    while (++i<5);
+    printf("%d",i);
+
     return 0;
 }

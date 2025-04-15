@@ -1,14 +1,15 @@
 #include<stdio.h>
-
-    // POINTER ADDRESS KO STORE AUR PRINT KRTA H
-
 int main()
 {
-    int a=5;
-    int* x=&a;           // YE ADDRESS KO STORE KRTA H
+    int x=10;
+    int *p;
+    p=&x;
 
-    printf("%p\n",x);    //%P ADDRESS KO PRINT KRTA H  // YE A KA ADDRESS H
-    printf("%p",&x);     // YE X KA ADDRESS H
-
+    printf("%u\n",x);   // VALUE OF X
+    printf("%u\n",&x);  // ADDRESS OF X
+    printf("%u\n",*p);  // X KE ADDRESS PE JO VALUE HAI
+    printf("%u\n",p);   // X KA ADDRESS
+    printf("%u\n",&p);  // P KA ADDRESS
+    
     return 0;
 }
