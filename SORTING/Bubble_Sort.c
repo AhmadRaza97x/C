@@ -2,6 +2,7 @@
 #include<stdbool.h>
 
     // BUBBLE SORT
+    // ASCENDING ORDER
 
 int main()
 {
