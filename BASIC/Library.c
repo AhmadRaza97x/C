@@ -9,6 +9,7 @@
 
     // pow(a,b);  ISKA MTLB A KI POWER B
     // sqrt(a);   ISKA MTLB A KA SQUARE ROOT
+    // cbrt(a);   A KA CUBE ROOT
 
 #include<limits.h>
 
