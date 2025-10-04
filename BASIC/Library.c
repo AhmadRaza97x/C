@@ -24,4 +24,6 @@
 
     // %s                   TO PRINT STRING (format specifier)
     // strlen(char*str);    RETURN SIZE/LENGTH OF STRING
-    // strcpy(char*str1,char*str2)  COPY CONTENT OF STR1 TO STR1 & DEEP COPY
+    // strcpy(char*str1,char*str2)  COPY CONTENT OF STR2 TO STR1 & DEEP COPY
+    // strcat(char *str1,char *str2) CONCATENATE
+    // strcmp
